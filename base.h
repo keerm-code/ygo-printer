@@ -9,7 +9,6 @@
 #include<cstring>
 #include<string>
 #include<fstream>
-#include<
 
 #define MAX_CARD 9
 #define DPI 300
