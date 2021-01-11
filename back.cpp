@@ -23,6 +23,10 @@ void Backpage::print()
         }
     }
     backpage=a4.clone();
+    vector<int> savepaarms;
+    savepaarms.push_back(CV_IMWRITE_JPEG_QUALITY);
+    savepaarms.push_back(100);
+    imwrite("result.jpg",backpage,savepaarms);
 }
 
 Backpage::Backpage()
